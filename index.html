@@ -6,72 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/flaticons.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
     <link rel="stylesheet" href="/css/scss/style.css">
+    
     <title>HOTEL DUSCMAN</title>
 </head>
 <body>
     <!-- Header 100svh, verifier comment fonctionne les étoiles en CSS, probablement link la page css donner par le brief sur les différentes pages  et utiliser la classe dans l'html,image banckground en css-->
     <header class="home background-image">    
         <div>
-            <span>star</span>
-            <span>star</span>
-            <span>star</span>   <!-- Utilisation de span pour les étoiles, je voyais pas l'intéret de mettre des div' ici, surment leur mettre un gap d'un rem -->
-            <span>star</span>
-            <span>star</span>
+            <span class="ti-star"></span>
+            <span class="ti-star"></span>
+            <span class="ti-star"></span> <!-- Utilisation de span pour les étoiles, je voyais pas l'intéret de mettre des div' ici, surment leur mettre un gap d'un rem -->
+            <span class="ti-star"></span>
+            <span class="ti-star"></span>
         </div>
     
         <h4>HOTÊL DE LUXE PARIS</h4>   
         <h1>L'EXPERIENCE DU LUXE</h1>
-        <a href="detail-chambre.html">CHAMBRES & SUITES</a>
+        <a class="btn btn-header" href="detail-chambre.html">CHAMBRES & SUITES</a>
     </header>
 
-    <section>
+    <section class="section section__container--grid light-grey">
         <div>
-            <span>star</span>
-            <span>star</span>
-            <span>star</span>
-            <span>star</span>
-            <span>star</span>
-        </div>
-            <div>
+            <span class="ti-star"></span>
+            <span class="ti-star"></span>
+            <span class="ti-star"></span>
+            <span class="ti-star"></span>
+            <span class="ti-star"></span>
+        
+            
             <h3>Hôtel de luxe Duscman</h3> <!-- Tous les h3 en "marron/jaune"  créer une variable-->
             <h2>L'experience du luxe</h2>
            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores sunt sint accusantium doloremque, error qui est molestiae consectetur. Nobis deleniti consectetur sed aliquid voluptatum beatae.</p>
            <p>Unde, sit veniam? Ad quos dignissimos dolores repellendus sapiente necessitatibus quasi fugiat illo error. Doloremque dicta ullam non fuga alias eius placeat, consequatur vel. Officiis.</p>
         </div>
-        <div>
+        <div class="container__img--flex">
             <img src="images/rooms/8.jpg" alt="">
             <img src="images/rooms/2.jpg" alt=""> <!-- margin bottom pour surélevé l'image par rapport à celle de gauche-->
         </div>
     </section>
     
 
-    <section>     
+    <section class="section grid--dark-grey">   
+        
              <h3>Duscman</h3>
              <h2>Chambres & Suites</h2>
+             
              <!-- Grid 3/2 -test des positions relatives et absolutes pour écrire par dessus l'image  -->
-             <div>
-            <article>
-             <img src="images/rooms/1.jpg" alt="">
-             <div>
+             <div class="article__container__grid">
+                <article class="tuile">
+                <img src="images/rooms/1.jpg" alt="">
+                 <div>
                 <a href="detail-chambre.html">Réserver</a>
-            </div>
-            <h6><a href="detail-chambre.html">150 € / NUIT</a></h6>
-            <h5><a href="detail-chambre.htmldetail-chambre.html">Junior Suite</a></h5>
-            <div> 
+                </div>
+                <h6><a href="detail-chambre.html">150 € / NUIT</a></h6>
+                <h5><a href="detail-chambre.htmldetail-chambre.html">Junior Suite</a></h5>
+                <div> 
                 <ul>
                 <li>icon</li>
                 <li>icon</li>
                 <li>icon</li>
                 <li>icon</li>
                 </ul>
-            </div>
-            <div>
+                </div>
+                <div>
                 <a href="detail-chambre.html"></a>
                 <span> fleche</span>
-            </div>
-            </article>
-            <article>
+                </div>
+                </article>
+                <article class="tuile">
                 <img src="images/rooms/2.jpg" alt="">
                 <div>
                    <a href="detail-chambre.html">Réserver</a>
@@ -91,7 +96,7 @@
                    <span> fleche</span>
                </div>
                </article>
-               <article>
+               <article class="tuile">
                 <img src="images/rooms/3.jpg" alt="">
                 <div>
                    <a href="detail-chambre.html">Réserver</a>
@@ -111,7 +116,7 @@
                    <span> fleche</span>
                </div>
                </article>
-               <article>
+               <article class="tuile">
                 <img src="images/rooms/4.jpg" alt="">
                 <div>
                    <a href="detail-chambre.html">Réserver</a>
@@ -131,7 +136,7 @@
                    <span> fleche</span>
                </div>
                </article>
-            <article>
+                <article class="tuile">
                 <img src="/images/rooms/7.jpg" alt="">
                 <div>
                    <a href="detail-chambre.html">Réserver</a>
@@ -154,8 +159,8 @@
             </div>
     </section>
 
-    <section>
-        <div>   <!-- grid 2/4,background color de la div' texte différentes par rapport à la section -->
+    <section class="section section__decouverte section--light-gray">
+        <div class="decouverte__container__grid">   <!-- grid 2/4,background color de la div' texte différentes par rapport à la section -->
             <div>
                 <img src="images/restaurant/1.jpg" alt="#">
             </div>
@@ -163,14 +168,14 @@
                 <h3>Découverte</h3>
                 <h2>Le Restaurant</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et vitae necessitatibus, quidem eaque obcaecati quisquam similique ut quam repellendus aliquid, dolorum nesciunt sunt adipisci eveniet.</p>
-                <a href="">EN SAVOIR PLUS</a>
+                <a class="btn-section" href="">EN SAVOIR PLUS</a>
             </div>
 
             <div>
                 <h3>Expérience</h3>
                 <h2>Centre de bien-être</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et vitae necessitatibus, quidem eaque obcaecati quisquam similique ut quam repellendus aliquid, dolorum nesciunt sunt adipisci eveniet.</p>
-                <a href="#">EN SAVOIR PLUS</a>
+                <a class="btn-section" href="#">EN SAVOIR PLUS</a>
             </div>
             <div>
                 <img src="images/spa/3.jpg" alt="#">
@@ -183,14 +188,14 @@
                 <h3>Epanouissement</h3>
                 <h2>Centre de fitness</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et vitae necessitatibus, quidem eaque obcaecati quisquam similique ut quam repellendus aliquid, dolorum nesciunt sunt adipisci eveniet.</p>
-                <a href="#">EN SAVOIR PLUS</a>
+                <a class="btn-section"  href="#">EN SAVOIR PLUS</a>
             </div>
 
             <div>
                 <h3>Expérience</h3>
                 <h2>Centre aquatique</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et vitae necessitatibus, quidem eaque obcaecati quisquam similique ut quam repellendus aliquid, dolorum nesciunt sunt adipisci eveniet.</p>
-                <a href="#">EN SAVOIR PLUS</a>
+                <a class="btn-section" href="#">EN SAVOIR PLUS</a>
             </div>
             <div>
                 <img src="images/spa/1.jpg" alt="#">
@@ -244,7 +249,7 @@
 
 
 
-    </div>
+    
 
 </section>
 <!-- Margin à partir d'ici -->

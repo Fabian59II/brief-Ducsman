@@ -1,0 +1,40 @@
+// Première section page d'accueil couleur gris foncé
+.section.grid--dark-grey {
+    max-width: 1200px;
+    margin: auto;
+    background-color: darkslategray;
+}
+
+    
+// Seconde section grid d'accueil couleur gris clair 
+
+.section__decouverte{
+    max-width: 1200px;
+    margin: auto;
+    background-color: lightslategray;
+} 
+
+
+.section__container--grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+    max-width: 1200px;
+    place-items: center;
+    margin: auto;
+    background-color: lightgrey;
+
+     img{
+        max-width: 100%;
+        height: 300px;
+        
+       
+        
+        
+    }
+    :nth-child(1){
+        width: 300px;
+        grid-area: 1 / 1 / 1 / span 2;
+    }
+   
+   
+}
