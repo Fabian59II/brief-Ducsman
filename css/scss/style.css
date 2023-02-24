@@ -9568,6 +9568,19 @@ footer .reseaux-sociaux {
   grid-area: 1/2/1/1;
 }
 
+.servive__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2em;
+  width: 1200px;
+}
+.servive__grid div {
+  border: 1px solid white;
+  width: 100%;
+  padding: 1em;
+  padding-bottom: 75px;
+}
+
 header {
   display: grid;
   place-content: center center;
@@ -9680,9 +9693,24 @@ section .container__img--flex :nth-child(2) {
   align-self: flex-start;
 }
 
+.section__option {
+  display: flex;
+  justify-content: space-between;
+  gap: 3em;
+  margin-top: 3em;
+}
+.section__option div {
+  width: 100%;
+  height: 300px;
+}
+.section__option .option--padding {
+  background-color: darkolivegreen;
+}
+
 section {
-  max-width: 900px;
+  max-width: 1200px;
   margin-bottom: 3em;
+  margin: auto;
 }
 
 .btn-header {
@@ -9705,6 +9733,7 @@ section {
   max-width: -moz-fit-content;
   max-width: fit-content;
   margin: auto;
+  color: white;
 }
 
 .article__container__grid {
