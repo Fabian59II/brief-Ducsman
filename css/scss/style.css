@@ -308,26 +308,91 @@ template {
   display: none;
 }
 
-body {
-  color: white;
-  background-color: grey;
-}
-body a {
-  color: white;
-}
-
-header {
+footer {
+  background-color: gray;
   display: grid;
-  place-content: center;
-  margin: auto;
-  max-width: 100%;
-  height: 100svh;
-  text-align: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  max-width: auto;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+}
+footer ul {
+  display: flex;
+  padding-left: 0;
+}
+footer .contact .footer-phone-num {
+  display: flex;
+}
+footer .reseaux-sociaux {
+  margin: 0;
 }
 
-.home.background-image {
-  background-image: url(/images/slider/2.jpg);
-  background-repeat: no-repeat;
-  margin: auto;
-  max-width: 100%;
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  color: gold;
+}
+nav ul > li {
+  list-style-type: none;
+}
+
+.barre-nav {
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 250px;
+  height: auto;
+  background-color: gray;
+}
+.barre-nav nav ul {
+  padding-left: 10px;
+}
+.barre-nav .barre-nav h2 {
+  color: gold;
+}
+.barre-nav .num-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-items: end;
+}
+.barre-nav .num-info .info p {
+  margin: 0;
+}
+
+.liens-reseaux ul > li {
+  list-style-type: none;
+}
+
+.Duc-star {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Duc-star h2 {
+  margin: 0;
+}
+.Duc-star p {
+  margin: 0;
+}
+
+.copy {
+  display: flex;
+  background-color: gray;
+  gap: 5px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.copy ul {
+  display: flex;
+  gap: 5px;
+}
+.copy ul li {
+  list-style-type: none;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */

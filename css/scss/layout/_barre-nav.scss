@@ -1,0 +1,31 @@
+.barre-nav {
+        display: grid;
+        grid-template-columns: 1fr;  
+        max-width: 250px;
+        height: auto;
+        background-color: gray;
+
+
+nav ul {        
+        padding-left: 10px;
+
+}
+
+.barre-nav h2 {
+        color: gold;
+}
+
+.num-info {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        justify-items: end; 
+
+.info p {       
+        margin: 0;
+            
+            }
+
+}
+
+}
