@@ -9480,14 +9480,25 @@ Flaticon icon font: Flaticon
   content: "\e75f";
 }
 
-body {
-  color: white;
-  background-color: grey;
-}
-body a {
-  color: white;
-}
-
+/******** accueil ********/
+/* NAV */
+/* NAV */
+/* header */
+/* header */
+/* section */
+/* section */
+/* section chambre */
+/* section chambre */
+/* section services */
+/* section services */
+/* section options */
+/* section services en */
+/* section services en */
+/* footer */
+/* footer */
+/* section footer */
+/* section footer */
+/******** detail-chambre ********/
 nav {
   background-color: black;
   position: fixed;
@@ -9498,9 +9509,35 @@ nav {
 
 body {
   background-color: #222222;
+  color: white;
 }
 body .header-section--margin {
   margin-left: 300px;
+}
+body h3 {
+  color: #a68152;
+}
+
+footer {
+  background-color: gray;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  max-width: auto;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+}
+footer ul {
+  display: flex;
+  padding-left: 0;
+}
+footer .contact .footer-phone-num {
+  display: flex;
+}
+footer .reseaux-sociaux {
+  margin: 0;
 }
 
 .section.grid--dark-grey {
@@ -9551,6 +9588,73 @@ header {
   -o-object-fit: fill;
      object-fit: fill;
   margin-bottom: 3;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  color: gold;
+}
+nav ul > li {
+  list-style-type: none;
+}
+
+.barre-nav {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  height: 100svh;
+  background-color: gray;
+}
+.barre-nav nav ul {
+  padding-left: 10px;
+}
+.barre-nav .barre-nav h2 {
+  color: gold;
+}
+.barre-nav .num-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-items: end;
+}
+.barre-nav .num-info .info p {
+  margin: 0;
+}
+
+.liens-reseaux ul > li {
+  list-style-type: none;
+}
+
+.Duc-star {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Duc-star h2 {
+  margin: 0;
+}
+.Duc-star p {
+  margin: 0;
+}
+
+.copy {
+  display: flex;
+  background-color: gray;
+  gap: 5px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.copy ul {
+  display: flex;
+  gap: 5px;
+}
+.copy ul li a {
+  list-style-type: none;
+  text-decoration: none;
 }
 
 section .container__img--flex {
