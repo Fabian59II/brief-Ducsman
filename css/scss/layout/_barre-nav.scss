@@ -1,8 +1,8 @@
 .barre-nav {
-        display: grid;
-        grid-template-columns: 1fr;  
+        display: flex;
+        flex-direction: column; 
         max-width: 250px;
-        height: auto;
+        height: 100svh;
         background-color: gray;
 
 

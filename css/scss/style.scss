@@ -1,4 +1,8 @@
 @import 'vendors/normalize';
+@import 'vendors/bootstrap.min';
+@import 'vendors/flaticons';
+@import 'vendors/themify-icons';
+
 
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
@@ -16,11 +20,14 @@
 @import 'layout/Duc-star';
 @import 'layout/pied-de-page';
 
+@import 'layout/flexbox';
+@import 'layout/section';
 
 @import 'components/buttons';
 @import 'components/carousel';
 @import 'components/cover';
 @import 'components/dropdown';
+@import 'components/tuile'
 
 
 

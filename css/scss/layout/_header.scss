@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // header{
 //     display: grid;
 //     place-content: center;
@@ -12,5 +13,28 @@
 //     background-repeat: no-repeat;
 //     margin: auto;
 //     max-width: 100%;
+=======
+header{
+    display: grid;
+    place-content: center;
+    margin: auto;
+    max-width: 100%;
+    min-height: 100svh;
+    text-align: center;
+    
+}
+
+.home.background-image{
+    background-image:url(/images/slider/2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:auto;                    ;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-bottom: 3rem;
+    
+    object-fit: fill;
+    margin-bottom: 3;
+>>>>>>> 17a22ea146fbd914f505bba80fab8f732f29d85b
     
 // }
