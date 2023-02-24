@@ -1,0 +1,21 @@
+.btn-header {
+    display: block;
+    border: 1px solid white;
+    padding: 10px 20px;
+    width: fit-content;
+    margin: auto;
+    transition: all 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    &:hover {
+        background-color: white;
+        color: black
+    }
+    }
+
+    .btn-section {
+        background-color: burlywood;
+        padding: 10px 20px;
+        max-width: fit-content;
+        margin: auto;
+
+    }

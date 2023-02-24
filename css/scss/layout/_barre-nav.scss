@@ -1,0 +1,31 @@
+.barre-nav {
+        display: flex;
+        flex-direction: column; 
+        max-width: 250px;
+        height: 100svh;
+        background-color: gray;
+
+
+nav ul {        
+        padding-left: 10px;
+
+}
+
+.barre-nav h2 {
+        color: gold;
+}
+
+.num-info {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-items: center;
+        justify-items: end; 
+
+.info p {       
+        margin: 0;
+            
+            }
+
+}
+
+}
