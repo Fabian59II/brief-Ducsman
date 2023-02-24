@@ -309,95 +309,6 @@ template {
   display: none;
 }
 
-<<<<<<< HEAD
-footer {
-  background-color: gray;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 100px;
-  max-width: auto;
-  margin-left: 250px;
-  margin-right: 250px;
-  padding-bottom: 60px;
-  padding-left: 80px;
-}
-footer ul {
-  display: flex;
-  padding-left: 0;
-}
-footer .contact .footer-phone-num {
-  display: flex;
-}
-footer .reseaux-sociaux {
-  margin: 0;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-}
-nav a:hover {
-  color: gold;
-}
-nav ul > li {
-  list-style-type: none;
-}
-
-.barre-nav {
-  display: grid;
-  grid-template-columns: 1fr;
-  max-width: 250px;
-  height: auto;
-  background-color: gray;
-}
-.barre-nav nav ul {
-  padding-left: 10px;
-}
-.barre-nav .barre-nav h2 {
-  color: gold;
-}
-.barre-nav .num-info {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  align-items: center;
-  justify-items: end;
-}
-.barre-nav .num-info .info p {
-  margin: 0;
-}
-
-.liens-reseaux ul > li {
-  list-style-type: none;
-}
-
-.Duc-star {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.Duc-star h2 {
-  margin: 0;
-}
-.Duc-star p {
-  margin: 0;
-}
-
-.copy {
-  display: flex;
-  background-color: gray;
-  gap: 5px;
-  margin-left: 250px;
-  margin-right: 250px;
-}
-.copy ul {
-  display: flex;
-  gap: 5px;
-}
-.copy ul li {
-  list-style-type: none;
-  text-decoration: none;
-=======
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -9569,12 +9480,26 @@ Flaticon icon font: Flaticon
   content: "\e75f";
 }
 
-body {
-  color: white;
-  background-color: grey;
+footer {
+  background-color: gray;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 100px;
+  max-width: auto;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-bottom: 60px;
+  padding-left: 80px;
 }
-body a {
-  color: white;
+footer ul {
+  display: flex;
+  padding-left: 0;
+}
+footer .contact .footer-phone-num {
+  display: flex;
+}
+footer .reseaux-sociaux {
+  margin: 0;
 }
 
 .section.grid--dark-grey {
@@ -9626,6 +9551,81 @@ header {
   -o-object-fit: fill;
      object-fit: fill;
   margin-bottom: 3;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  color: gold;
+}
+nav ul > li {
+  list-style-type: none;
+}
+
+.barre-nav {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  height: 100svh;
+  background-color: gray;
+}
+.barre-nav .flaticon-phone {
+  color: black;
+}
+.barre-nav nav ul {
+  padding-left: 10px;
+}
+.barre-nav .barre-nav h2 {
+  color: gold;
+}
+.barre-nav .num-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-items: end;
+}
+.barre-nav .num-info .info p {
+  margin: 0;
+}
+
+.liens-reseaux ul > li {
+  list-style-type: none;
+}
+
+.Duc-star {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Duc-star h2 {
+  margin: 0;
+}
+.Duc-star p {
+  margin: 0;
+}
+
+.pied-de-page {
+  display: flex;
+  background-color: gray;
+  gap: 5px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.pied-de-page a {
+  text-decoration: none;
+}
+.pied-de-page a:hover {
+  color: gold;
+}
+.pied-de-page ul {
+  display: flex;
+  gap: 5px;
+}
+.pied-de-page ul li {
+  list-style-type: none;
 }
 
 .container__img--flex {
@@ -9709,5 +9709,4 @@ header {
 .decouverte__container__grid img {
   width: 100%;
   margin: auto;
->>>>>>> 17a22ea146fbd914f505bba80fab8f732f29d85b
 }/*# sourceMappingURL=style.css.map */
