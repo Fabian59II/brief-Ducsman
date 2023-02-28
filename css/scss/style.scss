@@ -1,21 +1,35 @@
 @import 'vendors/normalize';
+@import 'vendors/bootstrap.min';
+@import 'vendors/flaticons';
+@import 'vendors/themify-icons';
+
 
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
 
 @import 'base/typo';
 
+@import 'layout/nav-temporaire';
+@import 'layout/body';
 @import 'layout/footer';
 @import 'layout/forms';
 @import 'layout/grid';
 @import 'layout/header';
 @import 'layout/navigation';
 @import 'layout/sidebar';
+@import 'layout/barre-nav';
+@import 'layout/liens-reseaux';
+@import 'layout/Duc-star';
+@import 'layout/pied-de-page';
+
+@import 'layout/flexbox';
+@import 'layout/section';
 
 @import 'components/buttons';
 @import 'components/carousel';
 @import 'components/cover';
 @import 'components/dropdown';
+@import 'components/tuile'
 
 
 

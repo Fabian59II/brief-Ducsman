@@ -1,0 +1,27 @@
+footer {
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    max-width: auto;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+
+ul {
+        display: flex;        
+        padding-left: 0;
+}
+
+.contact .footer-phone-num {
+    display: flex;
+    
+}
+
+.reseaux-sociaux {
+        margin: 0;
+
+
+}
+}
