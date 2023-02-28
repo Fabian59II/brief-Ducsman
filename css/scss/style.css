@@ -9482,24 +9482,61 @@ Flaticon icon font: Flaticon
 
 footer {
   background-color: gray;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 100px;
-  max-width: auto;
-  margin-left: 250px;
-  margin-right: 250px;
-  padding-bottom: 60px;
-  padding-left: 80px;
-}
-footer ul {
   display: flex;
-  padding-left: 0;
+  justify-content: center;
+  height: 280px;
+  width: 100wh;
+  margin-top: 200px;
+  margin-left: 180px;
+  padding-right: 150px;
+}
+footer a {
+  color: black;
+}
+footer a:hover {
+  color: gold;
+  text-decoration: none;
+}
+footer .apropos h3 {
+  padding-top: 15px;
+  padding-left: 220px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+footer .apropos p {
+  padding-left: 220px;
+  padding-right: 180px;
+  padding-top: 15px;
+}
+footer .contact p {
+  padding-bottom: 20px;
+  padding-top: 15px;
+  margin-bottom: 0px;
+}
+footer .contact ul {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 0px;
+}
+footer .contact ul li {
+  list-style-type: none;
+  padding: 5px;
 }
 footer .contact .footer-phone-num {
   display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  margin-bottom: 15px;
+  gap: 5px;
 }
-footer .reseaux-sociaux {
-  margin: 0;
+footer .contact .footer-phone-num .flaticon-call {
+  font-size: 1.1em;
+}
+footer .contact .footer-phone-num .footer-numero-phone a {
+  color: black;
+}
+footer .contact .footer-phone-num .footer-numero-phone a:hover {
+  color: gold;
 }
 
 .section.grid--dark-grey {
@@ -9532,12 +9569,12 @@ footer .reseaux-sociaux {
 }
 
 header {
+  text-align: center;
   display: grid;
   place-content: center;
   margin: auto;
   max-width: 100%;
   min-height: 100svh;
-  text-align: center;
 }
 
 .home.background-image {
@@ -9553,79 +9590,87 @@ header {
   margin-bottom: 3;
 }
 
-nav a {
-  text-decoration: none;
-  color: black;
-}
-nav a:hover {
-  color: gold;
-}
-nav ul > li {
-  list-style-type: none;
-}
-
 .barre-nav {
+  position: fixed;
   display: flex;
   flex-direction: column;
-  max-width: 250px;
-  height: 100svh;
+  width: 250px;
+  height: 100vh;
   background-color: gray;
+  font-size: 0.8rem;
 }
-.barre-nav .flaticon-phone {
+.barre-nav a {
   color: black;
+}
+.barre-nav a:hover {
+  color: gold;
+  text-decoration: none;
+}
+.barre-nav .Duc-star h2 {
+  color: gold;
+  text-align: center;
+}
+.barre-nav .Duc-star p {
+  text-align: center;
+}
+.barre-nav .Duc-star .etoiles {
+  text-align: center;
+  color: gold;
 }
 .barre-nav nav ul {
-  padding-left: 10px;
+  padding-left: 20px;
 }
-.barre-nav .barre-nav h2 {
+.barre-nav nav ul li {
+  list-style-type: none;
   color: gold;
 }
-.barre-nav .num-info {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  align-items: center;
-  justify-items: end;
-}
-.barre-nav .num-info .info p {
-  margin: 0;
-}
-
-.liens-reseaux ul > li {
-  list-style-type: none;
-}
-
-.Duc-star {
+.barre-nav .call-info {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  gap: 10px;
 }
-.Duc-star h2 {
-  margin: 0;
+.barre-nav .call-info .flaticon-call {
+  color: gold;
+  align-self: flex-end;
+  font-size: 2.3em;
 }
-.Duc-star p {
-  margin: 0;
+.barre-nav .call-info .num-phone a {
+  color: gold;
+}
+.barre-nav .call-info a:hover {
+  color: gold;
+}
+.barre-nav .call-info .num p {
+  margin-bottom: 0px;
 }
 
 .pied-de-page {
+  background-attachment: scroll;
   display: flex;
+  justify-content: center;
   background-color: gray;
-  gap: 5px;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-top: 200px;
+  max-height: 50px;
+  width: 100wh;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  font-size: 0.8rem;
 }
-.pied-de-page a {
-  text-decoration: none;
-}
-.pied-de-page a:hover {
-  color: gold;
-}
-.pied-de-page ul {
+.pied-de-page .copy ul {
   display: flex;
-  gap: 5px;
-}
-.pied-de-page ul li {
   list-style-type: none;
+  padding-right: 5px;
+}
+.pied-de-page .copy ul li {
+  padding-left: 5px;
+}
+.pied-de-page .copy ul li a {
+  color: black;
+}
+.pied-de-page .copy ul li a:hover {
+  color: gold;
+  text-decoration: none;
 }
 
 .container__img--flex {
@@ -9652,6 +9697,31 @@ nav ul > li {
   max-width: 1200px;
   margin: auto;
   margin-bottom: 3em;
+}
+
+.header-chambre {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+  background-image: url(/images/slider/2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-bottom: 3rem;
+  place-content: center;
+  -o-object-fit: fill;
+     object-fit: fill;
+  margin-bottom: 3;
+  text-align: center;
+}
+.header-chambre .Les-5-etoiles {
+  color: gold;
+}
+
+.main-chambre {
+  display: flex;
 }
 
 .btn-header {

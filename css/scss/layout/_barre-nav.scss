@@ -1,35 +1,72 @@
 .barre-nav {
+        position: fixed;
         display: flex;
-        flex-direction: column; 
-        max-width: 250px;
-        height: 100svh;
+        flex-direction: column;
+        width: 250px;
+        height: 100vh;
         background-color: gray;
+        font-size: 0.8rem;
 
-        .flaticon-phone {
+        a {
                 color: black;
         }
 
+        a:hover {
+                color: gold;
+                text-decoration: none;
+        }
 
-nav ul {        
-        padding-left: 10px;
+        .Duc-star {
+                h2 {
+                        color: gold;
+                        text-align: center;
+                }
 
-}
+                p {
+                        text-align: center;
+                }
 
-.barre-nav h2 {
-        color: gold;
-}
+                .etoiles {
+                        text-align: center;
+                        color: gold;
+                }
+        }
 
-.num-info {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        align-items: center;
-        justify-items: end; 
+        nav {
+                ul {
+                        padding-left: 20px;
+                }
 
-.info p {       
-        margin: 0;
-            
-            }
+                ul li {
+                        list-style-type: none;
+                        color: gold;
+                }
+        }
 
-}
+        .call-info {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+
+                .flaticon-call {
+                        color: gold;
+                        align-self: flex-end;
+                        font-size: 2.3em;
+                }
+
+                .num-phone a {
+                        color: gold;
+                }
+
+                a:hover {
+                        color: gold;
+                }
+
+                .num p {
+                        margin-bottom: 0px;
+                }
+        }
+
+
 
 }
