@@ -27,5 +27,15 @@ nav ul {
             }
 
 }
+ 
+@media screen and (max-width:390px){
+        .barre-nav{
 
+       
+        width: 0px;
+        height: 0px;
+        background-color: Blue;
 }
+ }
+ }
+ 
