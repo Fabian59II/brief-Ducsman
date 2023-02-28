@@ -9620,9 +9620,8 @@ header {
 .barre-nav nav ul {
   padding-left: 20px;
 }
-.barre-nav nav ul li {
+.barre-nav nav li {
   list-style-type: none;
-  color: gold;
 }
 .barre-nav .call-info {
   display: flex;
@@ -9635,9 +9634,6 @@ header {
   font-size: 2.3em;
 }
 .barre-nav .call-info .num-phone a {
-  color: gold;
-}
-.barre-nav .call-info a:hover {
   color: gold;
 }
 .barre-nav .call-info .num p {
