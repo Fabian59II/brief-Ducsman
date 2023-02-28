@@ -9480,7 +9480,6 @@ Flaticon icon font: Flaticon
   content: "\e75f";
 }
 
-<<<<<<< HEAD
 /******** accueil ********/
 /* NAV */
 /* NAV */
@@ -9500,18 +9499,25 @@ Flaticon icon font: Flaticon
 /* section footer */
 /* section footer */
 /******** detail-chambre ********/
-nav {
-  background-color: black;
-  position: fixed;
-  width: 300px;
-  height: 100svh;
-  margin: auto;
+body {
+  color: white;
+  background-color: grey;
+}
+body a {
+  color: white;
 }
 
 body {
   background-color: #222222;
   color: white;
-=======
+}
+body .header-section--margin {
+  margin-left: 300px;
+}
+body h3 {
+  color: #a68152;
+}
+
 footer {
   background-color: gray;
   display: flex;
@@ -9569,46 +9575,15 @@ footer .contact .footer-phone-num .footer-numero-phone a {
 }
 footer .contact .footer-phone-num .footer-numero-phone a:hover {
   color: gold;
->>>>>>> develop
-}
-body .header-section--margin {
-  margin-left: 300px;
-}
-body h3 {
-  color: #a68152;
-}
-
-footer {
-  background-color: gray;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 100px;
-  max-width: auto;
-  margin-left: 250px;
-  margin-right: 250px;
-  padding-bottom: 60px;
-  padding-left: 80px;
-}
-footer ul {
-  display: flex;
-  padding-left: 0;
-}
-footer .contact .footer-phone-num {
-  display: flex;
-}
-footer .reseaux-sociaux {
-  margin: 0;
 }
 
 .section.grid--dark-grey {
   max-width: 1200px;
-  margin: auto;
   background-color: #1e1e1e;
 }
 
 .section__decouverte {
   max-width: 1200px;
-  margin: auto;
   background-color: #2b2b2b;
 }
 
@@ -9616,7 +9591,6 @@ footer .reseaux-sociaux {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   max-width: 1200px;
-  margin: auto;
   gap: 1.6em;
   margin-bottom: 5em;
 }
@@ -9642,12 +9616,13 @@ footer .reseaux-sociaux {
 }
 
 header {
-  text-align: center;
   display: grid;
   place-content: center center;
-  margin: auto;
-  max-width: 100swh;
-  min-height: 100svh;
+  margin-left: 300px;
+  margin-right: 80px;
+  width: 1200px;
+  height: 100svh;
+  text-align: center;
 }
 
 .home.background-image {
@@ -9663,43 +9638,41 @@ header {
   margin-bottom: 3;
 }
 
-<<<<<<< HEAD
-nav a {
-  text-decoration: none;
-  color: black;
-=======
 .barre-nav {
   position: fixed;
   display: flex;
   flex-direction: column;
   width: 250px;
-  height: 100vh;
-  background-color: gray;
+  margin: auto;
+  height: 100svh;
+  background-color: #1b1b1b;
   font-size: 0.8rem;
 }
 .barre-nav a {
-  color: black;
+  color: #6e6e6e;
 }
 .barre-nav a:hover {
-  color: gold;
+  color: #a68152;
   text-decoration: none;
 }
 .barre-nav .Duc-star h2 {
-  color: gold;
+  color: #a68152;
   text-align: center;
 }
 .barre-nav .Duc-star p {
   text-align: center;
+  color: #d1d1d1;
 }
 .barre-nav .Duc-star .etoiles {
   text-align: center;
-  color: gold;
+  color: #a68152;
 }
 .barre-nav nav ul {
   padding-left: 20px;
 }
 .barre-nav nav li {
   list-style-type: none;
+  color: #6e6e6e;
 }
 .barre-nav .call-info {
   display: flex;
@@ -9707,12 +9680,12 @@ nav a {
   gap: 10px;
 }
 .barre-nav .call-info .flaticon-call {
-  color: gold;
+  color: #a68152;
   align-self: flex-end;
   font-size: 2.3em;
 }
 .barre-nav .call-info .num-phone a {
-  color: gold;
+  color: #a68152;
 }
 .barre-nav .call-info .num p {
   margin-bottom: 0px;
@@ -9744,76 +9717,6 @@ nav a {
 }
 .pied-de-page .copy ul li a:hover {
   color: gold;
-  text-decoration: none;
-}
-
-.container__img--flex {
-  display: flex;
-  gap: 1rem;
-  height: 300px;
-  max-width: 100%;
->>>>>>> develop
-}
-nav a:hover {
-  color: gold;
-}
-nav ul > li {
-  list-style-type: none;
-}
-
-.barre-nav {
-  display: flex;
-  flex-direction: column;
-  max-width: 250px;
-  height: 100svh;
-  background-color: gray;
-}
-.barre-nav nav ul {
-  padding-left: 10px;
-}
-.barre-nav .barre-nav h2 {
-  color: gold;
-}
-.barre-nav .num-info {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  align-items: center;
-  justify-items: end;
-}
-.barre-nav .num-info .info p {
-  margin: 0;
-}
-
-.liens-reseaux ul > li {
-  list-style-type: none;
-}
-
-.Duc-star {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.Duc-star h2 {
-  margin: 0;
-}
-.Duc-star p {
-  margin: 0;
-}
-
-.copy {
-  display: flex;
-  background-color: gray;
-  gap: 5px;
-  margin-left: 250px;
-  margin-right: 250px;
-}
-.copy ul {
-  display: flex;
-  gap: 5px;
-}
-.copy ul li a {
-  list-style-type: none;
   text-decoration: none;
 }
 
@@ -9857,12 +9760,15 @@ section .container__img--flex :nth-child(2) {
 section {
   max-width: 1200px;
   margin-bottom: 3em;
-  margin: auto;
+  margin-left: 300px;
+  margin-right: 80px;
 }
 
 .header-chambre {
   display: flex;
   flex-direction: column;
+  width: 1200px;
+  margin-left: 300px;
   min-height: 100svh;
   background-image: url(/images/slider/2.jpg);
   background-repeat: no-repeat;
@@ -9874,7 +9780,7 @@ section {
   place-content: center;
   -o-object-fit: fill;
      object-fit: fill;
-  margin-bottom: 3;
+  margin-bottom: 3rem;
   text-align: center;
 }
 .header-chambre .Les-5-etoiles {
@@ -9941,4 +9847,8 @@ section {
 .decouverte__container__grid img {
   width: 100%;
   margin: auto;
+}
+
+.options {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

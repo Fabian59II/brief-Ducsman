@@ -3,32 +3,34 @@
         display: flex;
         flex-direction: column;
         width: 250px;
-        height: 100vh;
-        background-color: gray;
+        margin: auto;
+        height: 100svh;
+        background-color: #1b1b1b;
         font-size: 0.8rem;
 
         a {
-                color: black;
+                color: #6e6e6e;
         }
 
         a:hover {
-                color: gold;
+                color: #a68152;
                 text-decoration: none;
         }
 
         .Duc-star {
                 h2 {
-                        color: gold;
+                        color: #a68152;
                         text-align: center;
                 }
 
                 p {
                         text-align: center;
+                        color: #d1d1d1;
                 }
 
                 .etoiles {
                         text-align: center;
-                        color: gold;
+                        color: #a68152;
                 }
         }
 
@@ -37,10 +39,11 @@
                         padding-left: 20px;
                 }
 
-               li {
+                li {
                         list-style-type: none;
-                       
+                        color: #6e6e6e;
                 }
+
         }
 
         .call-info {
@@ -49,13 +52,13 @@
                 gap: 10px;
 
                 .flaticon-call {
-                        color: gold;
+                        color: #a68152;
                         align-self: flex-end;
                         font-size: 2.3em;
                 }
 
                 .num-phone a {
-                        color: gold;
+                        color: #a68152;
                 }
 
                 .num p {

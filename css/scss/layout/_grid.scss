@@ -1,7 +1,7 @@
 // Première section page d'accueil couleur gris foncé
 .section.grid--dark-grey {
     max-width: 1200px;
-    margin: auto;
+    // margin: auto;
     background-color:$bady_section_chambre;
 }
 
@@ -10,7 +10,7 @@
 
 .section__decouverte{
     max-width: 1200px;
-    margin: auto;
+    // margin: auto;
     background-color: $background-color_div_services;
 } 
 
@@ -19,7 +19,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
     max-width: 1200px;
-    margin: auto;
+    // margin: auto;
     gap:1.6em;
     margin-bottom: 5em;
 
