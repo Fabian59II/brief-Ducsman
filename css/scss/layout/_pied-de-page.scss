@@ -1,21 +1,33 @@
-.copy {
-
+.pied-de-page {
+    background-attachment: scroll;
     display: flex;
+    justify-content: center;
     background-color: gray;
-    gap: 5px;
-    margin-left: 250px;
-    margin-right: 250px;
-    
+    margin-top: 200px;
+    max-height: 50px;
+    width: 100wh;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    font-size: 0.8rem;
 
-    ul {
+    .copy ul {
         display: flex;
-        gap: 5px;
-        
+        list-style-type: none;
+        padding-right: 5px;
 
-       li a {
-            list-style-type: none;
-            text-decoration: none;
+        li {
+            padding-left: 5px;
+
+            a {
+                color: black;
+
+            }
+
+            a:hover {
+                color: gold;
+                text-decoration: none;
+            }
         }
-
     }
 }
