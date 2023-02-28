@@ -1,4 +1,5 @@
 footer {
+<<<<<<< HEAD
     background-color: #222222;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -18,10 +19,87 @@ footer {
             display: flex;
 
             }
+=======
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    height: 280px;
+    width: 100wh;
+    margin-top: 200px;
+    margin-left: 180px;
+    padding-right: 150px;
+>>>>>>> e57bc516c336a89c0d52cf637c000757af9ad2df
 
-.reseaux-sociaux {
-        margin: 0;
+    a {
+        color: black;
 
+    }
 
+<<<<<<< HEAD
             }
         }
+=======
+    a:hover {
+        color: gold;
+        text-decoration: none;
+    }
+
+    .apropos {
+        h3 {
+            padding-top: 15px;
+            padding-left: 220px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+        }
+
+        p {
+            padding-left: 220px;
+            padding-right: 180px;
+            padding-top: 15px;
+        }
+    }
+
+    .contact {
+
+        p {
+            padding-bottom: 20px;
+            padding-top: 15px;
+            margin-bottom: 0px;
+        }
+
+        ul {
+            display: flex;
+            align-items: flex-end;
+            padding-left: 0px;
+
+            li {
+                list-style-type: none;
+                padding: 5px;
+            }
+        }
+
+        .footer-phone-num {
+            display: flex;
+            justify-content: flex-start;
+            align-items: end;
+            margin-bottom: 15px;
+            gap: 5px;
+
+            .flaticon-call {
+                font-size: 1.1em;
+            }
+
+            .footer-numero-phone {
+
+                a {
+                    color: black;
+                }
+
+                a:hover {
+                    color: gold;
+                }
+            }
+        }
+    }
+}
+>>>>>>> e57bc516c336a89c0d52cf637c000757af9ad2df

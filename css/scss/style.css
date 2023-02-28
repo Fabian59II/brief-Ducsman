@@ -9499,6 +9499,7 @@ Flaticon icon font: Flaticon
 /* section footer */
 /* section footer */
 /******** detail-chambre ********/
+<<<<<<< HEAD
 nav {
   background-color: #1b1b1b;
   color: #6e6e6e;
@@ -9506,6 +9507,14 @@ nav {
   width: 300px;
   height: 100svh;
   margin: auto;
+=======
+body {
+  color: white;
+  background-color: grey;
+}
+body a {
+  color: white;
+>>>>>>> e57bc516c336a89c0d52cf637c000757af9ad2df
 }
 
 body {
@@ -9520,6 +9529,7 @@ body h3 {
 }
 
 footer {
+<<<<<<< HEAD
   background-color: #222222;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -9531,25 +9541,73 @@ footer {
   padding-left: 80px;
 }
 footer ul {
+=======
+  background-color: gray;
+>>>>>>> e57bc516c336a89c0d52cf637c000757af9ad2df
   display: flex;
-  padding-left: 0;
+  justify-content: center;
+  height: 280px;
+  width: 100wh;
+  margin-top: 200px;
+  margin-left: 180px;
+  padding-right: 150px;
+}
+footer a {
+  color: black;
+}
+footer a:hover {
+  color: gold;
+  text-decoration: none;
+}
+footer .apropos h3 {
+  padding-top: 15px;
+  padding-left: 220px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+footer .apropos p {
+  padding-left: 220px;
+  padding-right: 180px;
+  padding-top: 15px;
+}
+footer .contact p {
+  padding-bottom: 20px;
+  padding-top: 15px;
+  margin-bottom: 0px;
+}
+footer .contact ul {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 0px;
+}
+footer .contact ul li {
+  list-style-type: none;
+  padding: 5px;
 }
 footer .contact .footer-phone-num {
   display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  margin-bottom: 15px;
+  gap: 5px;
 }
-footer .reseaux-sociaux {
-  margin: 0;
+footer .contact .footer-phone-num .flaticon-call {
+  font-size: 1.1em;
+}
+footer .contact .footer-phone-num .footer-numero-phone a {
+  color: black;
+}
+footer .contact .footer-phone-num .footer-numero-phone a:hover {
+  color: gold;
 }
 
 .section.grid--dark-grey {
   max-width: 1200px;
-  margin: auto;
   background-color: #1e1e1e;
 }
 
 .section__decouverte {
   max-width: 1200px;
-  margin: auto;
   background-color: #2b2b2b;
 }
 
@@ -9557,7 +9615,6 @@ footer .reseaux-sociaux {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   max-width: 1200px;
-  margin: auto;
   gap: 1.6em;
   margin-bottom: 5em;
 }
@@ -9585,9 +9642,10 @@ footer .reseaux-sociaux {
 header {
   display: grid;
   place-content: center center;
-  margin: auto;
-  max-width: 100swh;
-  min-height: 100svh;
+  margin-left: 300px;
+  margin-right: 80px;
+  width: 1200px;
+  height: 100svh;
   text-align: center;
 }
 
@@ -9604,6 +9662,7 @@ header {
   margin-bottom: 3;
 }
 
+<<<<<<< HEAD
 nav a {
   text-decoration: none;
   color: #6e6e6e;
@@ -9615,16 +9674,41 @@ nav ul > li {
   list-style-type: none;
 }
 
+=======
+>>>>>>> e57bc516c336a89c0d52cf637c000757af9ad2df
 .barre-nav {
+  position: fixed;
   display: flex;
   flex-direction: column;
-  max-width: 250px;
+  width: 250px;
+  margin: auto;
   height: 100svh;
-  background-color: gray;
+  background-color: #1b1b1b;
+  font-size: 0.8rem;
+}
+.barre-nav a {
+  color: #6e6e6e;
+}
+.barre-nav a:hover {
+  color: #a68152;
+  text-decoration: none;
+}
+.barre-nav .Duc-star h2 {
+  color: #a68152;
+  text-align: center;
+}
+.barre-nav .Duc-star p {
+  text-align: center;
+  color: #d1d1d1;
+}
+.barre-nav .Duc-star .etoiles {
+  text-align: center;
+  color: #a68152;
 }
 .barre-nav nav ul {
-  padding-left: 10px;
+  padding-left: 20px;
 }
+<<<<<<< HEAD
 .barre-nav .barre-nav h2 {
   color: #a68152;
 }
@@ -9694,22 +9778,31 @@ nav ul > li {
 }
 .liens-reseaux .adresse-contact {
   color: #a68152;
+=======
+.barre-nav nav li {
+  list-style-type: none;
+  color: #6e6e6e;
+>>>>>>> e57bc516c336a89c0d52cf637c000757af9ad2df
 }
-
-.Duc-star {
+.barre-nav .call-info {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  gap: 10px;
 }
-.Duc-star h2 {
-  margin: 0;
+.barre-nav .call-info .flaticon-call {
+  color: #a68152;
+  align-self: flex-end;
+  font-size: 2.3em;
 }
-.Duc-star p {
-  margin: 0;
+.barre-nav .call-info .num-phone a {
+  color: #a68152;
+}
+.barre-nav .call-info .num p {
+  margin-bottom: 0px;
 }
 
 .pied-de-page {
+<<<<<<< HEAD
   position: sticky;
   display: flex;
   justify-content: center;
@@ -9722,6 +9815,19 @@ nav ul > li {
   padding-top: 40px;
   padding-bottom: 50px;
   padding-right: 50px;
+=======
+  background-attachment: scroll;
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  margin-top: 200px;
+  max-height: 50px;
+  width: 100wh;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-right: 40px;
+  font-size: 0.8rem;
+>>>>>>> e57bc516c336a89c0d52cf637c000757af9ad2df
 }
 .pied-de-page .copy ul {
   display: flex;
@@ -9793,7 +9899,35 @@ section .container__img--flex :nth-child(2) {
 section {
   max-width: 1200px;
   margin-bottom: 3em;
+  margin-left: 300px;
+  margin-right: 80px;
+}
+
+.header-chambre {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin-left: 300px;
+  min-height: 100svh;
+  background-image: url(/images/slider/2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
   margin: auto;
+  margin-bottom: 3rem;
+  place-content: center;
+  -o-object-fit: fill;
+     object-fit: fill;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.header-chambre .Les-5-etoiles {
+  color: gold;
+}
+
+.main-chambre {
+  display: flex;
 }
 
 .btn-header {
@@ -9852,4 +9986,8 @@ section {
 .decouverte__container__grid img {
   width: 100%;
   margin: auto;
+}
+
+.options {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

@@ -1,4 +1,5 @@
 .pied-de-page {
+<<<<<<< HEAD
     position: sticky;
     display: flex;
     justify-content: center;
@@ -11,6 +12,19 @@
     padding-top: 40px;
     padding-bottom: 50px;
     padding-right: 50px;
+=======
+    background-attachment: scroll;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    margin-top: 200px;
+    max-height: 50px;
+    width: 100wh;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    font-size: 0.8rem;
+>>>>>>> e57bc516c336a89c0d52cf637c000757af9ad2df
 
     .copy ul {
         display: flex;
@@ -20,17 +34,23 @@
         li {
             padding-left: 5px;
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e57bc516c336a89c0d52cf637c000757af9ad2df
             a {
                 color: black;
 
             }
+<<<<<<< HEAD
+=======
+
+>>>>>>> e57bc516c336a89c0d52cf637c000757af9ad2df
             a:hover {
                 color: gold;
                 text-decoration: none;
             }
         }
-
     }
 
 

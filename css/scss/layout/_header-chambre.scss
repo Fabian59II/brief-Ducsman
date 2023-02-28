@@ -1,24 +1,25 @@
-header{
-    display: grid;
-    place-content: center center;
-    margin-left: 300px;
-    margin-right: 80px;
+.header-chambre {
+    display: flex;
+    flex-direction: column;
+    // margin: auto;
     width: 1200px;
-    height: 100svh;
-    text-align: center;
-    
-    
-    
-}
-
-.home.background-image{
+    margin-left: 300px;
+    min-height: 100svh;
     background-image:url(/images/slider/2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size:auto;
     background-repeat: no-repeat;
     margin: auto;
-    margin-bottom:3rem;
+    margin-bottom: 3rem;
+    place-content: center;
     object-fit: fill;
     margin-bottom: 3;
+    text-align: center;
+
+    .Les-5-etoiles{
+        color: gold;
+    }
+
+
 }
