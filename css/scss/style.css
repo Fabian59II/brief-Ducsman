@@ -9545,15 +9545,15 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 100px;
-  max-width: auto;
+  width: 100vh;
   margin-left: 250px;
-  margin-right: 250px;
+  margin-right: 0px;
   padding-bottom: 60px;
-  padding-left: 80px;
+  padding-left: 250px;
 }
 footer ul {
   display: flex;
-  padding-left: 0;
+  padding-left: 200px;
 }
 footer .contact .footer-phone-num {
   display: flex;
@@ -9566,15 +9566,20 @@ footer a:hover {
   text-decoration: none;
 }
 footer .apropos h3 {
+  width: 100%;
   padding-top: 15px;
-  padding-left: 220px;
+  padding-left: 250px;
   margin-right: 0px;
   margin-bottom: 0px;
+  margin-left: 220px;
 }
 footer .apropos p {
-  padding-left: 220px;
-  padding-right: 180px;
+  padding-left: 200px;
+  padding-right: px;
   padding-top: 15px;
+}
+footer .contact {
+  margin-left: 330px;
 }
 footer .contact p {
   padding-bottom: 20px;
@@ -9611,6 +9616,7 @@ footer .contact .footer-phone-num .footer-numero-phone a:hover {
   max-width: 1200px;
   background-color: #1e1e1e;
   margin-bottom: 6em;
+  margin-left: 250px;
 }
 .index .section__decouverte {
   max-width: 1200px;
@@ -9639,7 +9645,6 @@ footer .contact .footer-phone-num .footer-numero-phone a:hover {
 }
 .index .article__container__grid img {
   max-width: 100%;
-  margin: auto;
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
@@ -9665,6 +9670,7 @@ footer .contact .footer-phone-num .footer-numero-phone a:hover {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
   place-content: center center;
+  margin-left: 300px;
 }
 .index .decouverte__container__grid :nth-child(2) {
   padding: 30px;
@@ -9748,7 +9754,6 @@ footer .contact .footer-phone-num .footer-numero-phone a:hover {
 }
 .index .decouverte__container__grid img {
   max-width: 100%;
-  margin: auto;
 }
 @media screen and (max-width: 390px) {
   .index .decouverte__container__grid {
@@ -9758,10 +9763,9 @@ footer .contact .footer-phone-num .footer-numero-phone a:hover {
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     max-width: 100%;
-    margin: auto;
+    margin-left: 300px;
   }
   .index .decouverte__container__grid img {
-    margin: auto;
     max-width: 390px;
     min-height: 100%;
   }
@@ -9782,7 +9786,6 @@ footer .contact .footer-phone-num .footer-numero-phone a:hover {
 .index header {
   display: grid;
   place-content: center center;
-  margin: auto;
   max-width: 100swh;
   min-height: 100svh;
   text-align: center;
@@ -9793,7 +9796,6 @@ footer .contact .footer-phone-num .footer-numero-phone a:hover {
   background-position: center center;
   background-size: auto;
   background-repeat: no-repeat;
-  margin: auto;
   margin-bottom: 3rem;
   -o-object-fit: fill;
      object-fit: fill;
@@ -9803,8 +9805,7 @@ footer .contact .footer-phone-num .footer-numero-phone a:hover {
   position: fixed;
   display: flex;
   flex-direction: column;
-  max-width: 250px;
-  margin: auto;
+  width: 250px;
   height: 100svh;
   background-color: #1b1b1b;
   font-size: 0.8rem;
@@ -9878,15 +9879,16 @@ footer .contact .footer-phone-num .footer-numero-phone a:hover {
   position: sticky;
   display: flex;
   justify-content: center;
-  background-color: gray;
+  background-color: #1b1b1b;
   margin-top: 20px;
-  margin-left: 300px;
-  margin-right: 80px;
-  max-height: 50px;
-  max-width: 1200px;
+  margin-left: 250px;
+  margin-right: 0px;
+  height: 50px;
+  width: 100%;
   padding-top: 40px;
   padding-bottom: 50px;
-  padding-right: 50px;
+  padding-right: 0px;
+  padding-left: 100px;
 }
 .pied-de-page .copy ul {
   display: flex;
@@ -9921,7 +9923,7 @@ iframe {
 .index section .container__img--flex {
   display: flex;
   flex-direction: row;
-  margin: auto;
+  margin-left: 250px;
   gap: 1rem;
   max-width: 1200px;
   height: 500px;
@@ -9952,7 +9954,6 @@ iframe {
     display: grid;
     grid-template-columns: 3, 1fr 1fr 1fr;
     place-items: center center;
-    margin: auto;
   }
 }
 .index .section__option div {
@@ -9968,7 +9969,7 @@ iframe {
 .section {
   max-width: 1200px;
   margin-bottom: 3em;
-  margin: auto;
+  margin-left: 300px;
 }
 
 .header-chambre {
@@ -9996,14 +9997,18 @@ iframe {
 
 .main-chambre {
   display: flex;
+  margin-left: 300px;
+}
+.main-chambre li {
+  padding-left: 100px;
+  list-style-type: none;
 }
 
 .barre-nav {
   position: fixed;
   display: flex;
   flex-direction: column;
-  max-width: 250px;
-  margin: auto;
+  width: 250px;
   height: 100svh;
   background-color: #1b1b1b;
   font-size: 0.8rem;

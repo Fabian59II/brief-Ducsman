@@ -3,15 +3,16 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 100px;
-    max-width: auto;
+    width: 100vh;
     margin-left: 250px;
-    margin-right: 250px;
+    margin-right: 0px;
     padding-bottom: 60px;
-    padding-left: 80px;
+    padding-left: 250px;
+    
 
         ul {
             display: flex;
-        padding-left: 0;
+        padding-left: 200px;
         }
 
 .contact .footer-phone-num {
@@ -31,25 +32,29 @@ footer {
 
     .apropos {
         h3 {
+            width: 100%;
             padding-top: 15px;
-            padding-left: 220px;
+            padding-left: 250px;
             margin-right: 0px;
             margin-bottom: 0px;
+            margin-left: 220px;
         }
 
         p {
-            padding-left: 220px;
-            padding-right: 180px;
+          
+            padding-left: 200px;
+            padding-right: px;
             padding-top: 15px;
         }
     }
 
     .contact {
-
-        p {
+                margin-left: 330px;
+            p {
             padding-bottom: 20px;
             padding-top: 15px;
             margin-bottom: 0px;
+
         }
 
         ul {

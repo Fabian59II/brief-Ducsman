@@ -8,6 +8,7 @@
     // margin: auto;
     background-color:$bady_section_chambre;
     margin-bottom: 6em;
+    margin-left: 250px;
     
 }
 
@@ -49,7 +50,7 @@
     
     img{
         max-width:100%;
-        margin: auto;
+        // margin: auto;
         object-fit: cover;
         height: 100%;
         min-width: 50%;
@@ -81,6 +82,7 @@
         grid-template-columns: repeat(2,1fr);
         grid-template-rows:repeat(3,1fr);
         place-content: center center;
+        margin-left: 300px;
 
        :nth-child(2){
         padding: 30px;
@@ -164,7 +166,7 @@
        }
     img{
             max-width: 100%;
-            margin: auto;
+            // margin: auto;
             }
       
     }
@@ -177,11 +179,12 @@
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         max-width: 100%;
-        margin: auto;
+        margin-left: 300px;
+        // margin: auto;
         
         
         img{
-            margin: auto;
+            // margin: auto;
             max-width: 390px;
             min-height: 100%;
         }
