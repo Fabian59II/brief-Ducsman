@@ -9500,6 +9500,14 @@ Flaticon icon font: Flaticon
 /* section footer */
 /******** detail-chambre ********/
 body {
+  color: white;
+  background-color: grey;
+}
+body a {
+  color: white;
+}
+
+body {
   background-color: #222222;
   color: white;
   font-family: "Barlow", sans-serif;
@@ -9533,7 +9541,7 @@ body h4 {
 }
 
 footer {
-  background-color: gray;
+  background-color: #222222;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 100px;
@@ -9550,26 +9558,68 @@ footer ul {
 footer .contact .footer-phone-num {
   display: flex;
 }
-footer .reseaux-sociaux {
-  margin: 0;
+footer a {
+  color: black;
+}
+footer a:hover {
+  color: gold;
+  text-decoration: none;
+}
+footer .apropos h3 {
+  padding-top: 15px;
+  padding-left: 220px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+footer .apropos p {
+  padding-left: 220px;
+  padding-right: 180px;
+  padding-top: 15px;
+}
+footer .contact p {
+  padding-bottom: 20px;
+  padding-top: 15px;
+  margin-bottom: 0px;
+}
+footer .contact ul {
+  display: flex;
+  align-items: flex-end;
+  padding-left: 0px;
+}
+footer .contact ul li {
+  list-style-type: none;
+  padding: 5px;
+}
+footer .contact .footer-phone-num {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+  margin-bottom: 15px;
+  gap: 5px;
+}
+footer .contact .footer-phone-num .flaticon-call {
+  font-size: 1.1em;
+}
+footer .contact .footer-phone-num .footer-numero-phone a {
+  color: black;
+}
+footer .contact .footer-phone-num .footer-numero-phone a:hover {
+  color: gold;
 }
 
 .index .section.grid--dark-grey {
   max-width: 1200px;
-  margin: auto;
   background-color: #1e1e1e;
   margin-bottom: 6em;
 }
 .index .section__decouverte {
   max-width: 1200px;
-  margin: auto;
   background-color: #2b2b2b;
 }
 .index .section__container--grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   max-width: 1200px;
-  margin: auto;
   gap: 1.6em;
 }
 .index .section__container--grid img {
@@ -9733,7 +9783,7 @@ footer .reseaux-sociaux {
   display: grid;
   place-content: center center;
   margin: auto;
-  min-width: 100swh;
+  max-width: 100swh;
   min-height: 100svh;
   text-align: center;
 }
@@ -9741,7 +9791,7 @@ footer .reseaux-sociaux {
   background-image: url(/images/slider/2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: contain;
+  background-size: auto;
   background-repeat: no-repeat;
   margin: auto;
   margin-bottom: 3rem;
@@ -9749,29 +9799,63 @@ footer .reseaux-sociaux {
      object-fit: fill;
 }
 
-nav a {
-  text-decoration: none;
-  color: black;
-}
-nav a:hover {
-  color: gold;
-}
-nav ul > li {
-  list-style-type: none;
-}
-
 .barre-nav {
+  position: fixed;
   display: flex;
   flex-direction: column;
   max-width: 250px;
+  margin: auto;
   height: 100svh;
-  background-color: gray;
+  background-color: #1b1b1b;
+  font-size: 0.8rem;
+}
+.barre-nav a {
+  color: #6e6e6e;
+}
+.barre-nav a:hover {
+  color: #a68152;
+  text-decoration: none;
+}
+.barre-nav .Duc-star h2 {
+  color: #a68152;
+  text-align: center;
+}
+.barre-nav .Duc-star p {
+  text-align: center;
+  color: #d1d1d1;
+}
+.barre-nav .Duc-star .etoiles {
+  text-align: center;
+  color: #a68152;
+}
+.barre-nav nav ul {
+  padding-left: 20px;
+}
+.barre-nav nav li {
+  list-style-type: none;
+  color: #6e6e6e;
+}
+.barre-nav .call-info {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.barre-nav .call-info .flaticon-call {
+  color: #a68152;
+  align-self: flex-end;
+  font-size: 2.3em;
+}
+.barre-nav .call-info .num-phone a {
+  color: #a68152;
+}
+.barre-nav .call-info .num p {
+  margin-bottom: 0px;
 }
 .barre-nav nav ul {
   padding-left: 10px;
 }
 .barre-nav .barre-nav h2 {
-  color: gold;
+  color: #a68152;
 }
 .barre-nav .num-info {
   display: grid;
@@ -9790,37 +9874,48 @@ nav ul > li {
   }
 }
 
-.liens-reseaux ul > li {
+.pied-de-page {
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 80px;
+  max-height: 50px;
+  max-width: 1200px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+}
+.pied-de-page .copy ul {
+  display: flex;
   list-style-type: none;
+  padding-right: 5px;
+}
+.pied-de-page .copy ul li {
+  padding-left: 5px;
+}
+.pied-de-page .copy ul li a {
+  color: black;
+}
+.pied-de-page .copy ul li a:hover {
+  color: gold;
+  text-decoration: none;
 }
 
-.Duc-star {
+.maps {
+  filter: grayscale(100%);
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.Duc-star h2 {
-  margin: 0;
-}
-.Duc-star p {
-  margin: 0;
+  width: 100%;
+  margin-left: 150px;
+  margin-bottom: 50px;
 }
 
-.copy {
-  display: flex;
-  background-color: gray;
-  gap: 5px;
-  margin-left: 250px;
-  margin-right: 250px;
-}
-.copy ul {
-  display: flex;
-  gap: 5px;
-}
-.copy ul li a {
-  list-style-type: none;
-  text-decoration: none;
+iframe {
+  width: 70%;
 }
 
 .index section .container__img--flex {
@@ -9872,7 +9967,110 @@ nav ul > li {
 
 .section {
   max-width: 1200px;
+  margin-bottom: 3em;
   margin: auto;
+}
+
+.header-chambre {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin-left: 300px;
+  min-height: 100svh;
+  background-image: url(/images/slider/2.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-bottom: 3rem;
+  place-content: center;
+  -o-object-fit: fill;
+     object-fit: fill;
+  margin-bottom: 3;
+  text-align: center;
+}
+.header-chambre .Les-5-etoiles {
+  color: gold;
+}
+
+.main-chambre {
+  display: flex;
+}
+
+.barre-nav {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  margin: auto;
+  height: 100svh;
+  background-color: #1b1b1b;
+  font-size: 0.8rem;
+}
+.barre-nav a {
+  color: #6e6e6e;
+}
+.barre-nav a:hover {
+  color: #a68152;
+  text-decoration: none;
+}
+.barre-nav .Duc-star h2 {
+  color: #a68152;
+  text-align: center;
+}
+.barre-nav .Duc-star p {
+  text-align: center;
+  color: #d1d1d1;
+}
+.barre-nav .Duc-star .etoiles {
+  text-align: center;
+  color: #a68152;
+}
+.barre-nav nav ul {
+  padding-left: 20px;
+}
+.barre-nav nav li {
+  list-style-type: none;
+  color: #6e6e6e;
+}
+.barre-nav .call-info {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.barre-nav .call-info .flaticon-call {
+  color: #a68152;
+  align-self: flex-end;
+  font-size: 2.3em;
+}
+.barre-nav .call-info .num-phone a {
+  color: #a68152;
+}
+.barre-nav .call-info .num p {
+  margin-bottom: 0px;
+}
+.barre-nav nav ul {
+  padding-left: 10px;
+}
+.barre-nav .barre-nav h2 {
+  color: #a68152;
+}
+.barre-nav .num-info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  justify-items: end;
+}
+.barre-nav .num-info .info p {
+  margin: 0;
+}
+@media screen and (max-width: 390px) {
+  .barre-nav .barre-nav {
+    width: 0px;
+    height: 0px;
+    background-color: Blue;
+  }
 }
 
 .index .btn-header {

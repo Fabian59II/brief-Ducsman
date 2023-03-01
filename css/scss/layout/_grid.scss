@@ -5,7 +5,7 @@
 
 .section.grid--dark-grey {
     max-width: 1200px;
-    margin: auto;
+    // margin: auto;
     background-color:$bady_section_chambre;
     margin-bottom: 6em;
     
@@ -16,7 +16,7 @@
 
 .section__decouverte{
     max-width: 1200px;
-    margin: auto;
+    // margin: auto;
     background-color: $background-color_div_services;
 } 
 
@@ -25,7 +25,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
     max-width: 1200px;
-    margin: auto;
+    // margin: auto;
     gap:1.6em;
     
 

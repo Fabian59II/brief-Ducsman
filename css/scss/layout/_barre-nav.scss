@@ -1,19 +1,83 @@
 .barre-nav {
+        position: fixed;
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
+
         max-width: 250px;
+        margin: auto;
+
         height: 100svh;
-        background-color: gray;
+        background-color: #1b1b1b;
+        font-size: 0.8rem;
+
+        a {
+                color: #6e6e6e;
+        }
+
+        a:hover {
+                color: #a68152;
+                text-decoration: none;
+        }
+
+        .Duc-star {
+                h2 {
+                        color: #a68152;
+                        text-align: center;
+                }
+
+                p {
+                        text-align: center;
+                        color: #d1d1d1;
+                }
+
+                .etoiles {
+                        text-align: center;
+                        color: #a68152;
+                }
+        }
+
+        nav {
+                ul {
+                        padding-left: 20px;
+                }
+
+                li {
+                        list-style-type: none;
+                        color: #6e6e6e;
+                }
+
+        }
+
+        .call-info {
+                display: flex;
+                justify-content: center;
+                gap: 10px;
+
+                .flaticon-call {
+                        color: #a68152;
+                        align-self: flex-end;
+                        font-size: 2.3em;
+                }
+
+                .num-phone a {
+                        color: #a68152;
+                }
+
+                .num p {
+                        margin-bottom: 0px;
+                }
+        }
+
 
 
 nav ul {        
         padding-left: 10px;
 
-}
+        }
 
 .barre-nav h2 {
-        color: gold;
-}
+                        color: #a68152;
+                }
 
 .num-info {
         display: grid;
@@ -23,8 +87,9 @@ nav ul {
 
 .info p {       
         margin: 0;
-            
-            }
+
+                }
+
 
 }
  

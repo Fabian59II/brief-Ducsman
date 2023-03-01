@@ -1,14 +1,12 @@
 .index{
-
-
-
 header{
     display: grid;
     place-content: center center;
     margin: auto;
-    min-width: 100swh;
+    max-width: 100swh;
     min-height: 100svh;
-    text-align: center;  
+    text-align: center;
+    
     
     
 }
@@ -17,7 +15,7 @@ header{
     background-image:url(/images/slider/2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    background-size:contain; 
+    background-size:auto; 
     background-repeat: no-repeat;
     margin: auto;
     margin-bottom:3rem;
@@ -26,3 +24,4 @@ header{
 
     
 }
+
