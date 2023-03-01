@@ -9,27 +9,24 @@
 
 @import 'base/typo';
 
-@import 'layout/nav-temporaire';
 @import 'layout/body';
 @import 'layout/footer';
 @import 'layout/forms';
 @import 'layout/grid';
 @import 'layout/header';
-@import 'layout/navigation';
 @import 'layout/sidebar';
 @import 'layout/barre-nav';
-@import 'layout/liens-reseaux';
-@import 'layout/Duc-star';
 @import 'layout/pied-de-page';
-
+@import 'layout/iframe.scss';
 @import 'layout/flexbox';
 @import 'layout/section';
+@import 'layout/header-chambre';
+@import 'layout/main-chambre';
+@import 'layout/barre-nav';
 
 @import 'components/buttons';
-@import 'components/carousel';
-@import 'components/cover';
-@import 'components/dropdown';
-@import 'components/tuile'
+@import 'components/tuile';
+@import 'components/flaticon';
 
 
 

@@ -1,3 +1,4 @@
+.index{
 header{
     display: grid;
     place-content: center center;
@@ -5,6 +6,7 @@ header{
     max-width: 100swh;
     min-height: 100svh;
     text-align: center;
+    
     
     
 }
@@ -18,5 +20,8 @@ header{
     margin: auto;
     margin-bottom:3rem;
     object-fit: fill;
-    margin-bottom: 3;
+    }
+
+    
 }
+

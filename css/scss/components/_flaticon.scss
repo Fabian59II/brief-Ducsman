@@ -1,0 +1,54 @@
+.index{
+
+.flaticon{
+    font-size: 48px;
+    color:$icones_services_en;
+    margin-bottom:20px ;
+    }
+    .service-sous-titre{
+        margin-top: 20px;
+    }
+
+    .section__option{
+        
+        .information{
+            
+            display: flex;
+            align-items: flex-end;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-content: center;
+            padding: 0;
+            gap: 2px;
+           
+            
+            
+        }
+        .info--option{
+            padding: 0;
+            margin-left: 2px;
+        }
+            
+            
+        p{
+            margin:0 ;
+            font-size: 1rem;
+             
+           
+        }
+        a{
+            color:$icone_phone;
+            align-self: flex-end;
+            
+           
+            
+        }
+        .flaticon-call{
+            font-size: 3.5rem;
+            
+            
+        }
+        
+    }
+}

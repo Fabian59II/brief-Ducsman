@@ -1,11 +1,38 @@
 body {
  background-color: $background-color_body;
  color: white;
+ font-family:'Barlow', sans-serif; ;
  
  .header-section--margin{
     margin-left: 300px;
+
+   
+    }
+    @media screen and (max-width:390px) {
+      .header-section--margin{
+        margin: 0;
+      }
+    }
+
+    h1{
+      max-width: 700px;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 5.5em;
+      letter-spacing: 3px;
+      margin-bottom: 1em;
+    }
+    h2{
+      font-family: 'Barlow Condensed', serif;
     }
     h3{
-      color:$chambre_h3 ;
+      font-size: 1rem;
+      color:$chambre_h3;
+      margin: 5px 0 5px 0;
     }
+    h4{
+      font-family: 'Barlow Condensed', serif;
+      margin-top: 30px;
+    }
+    
 }
+  
