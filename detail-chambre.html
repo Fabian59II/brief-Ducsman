@@ -5,82 +5,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Gilda+Display&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css\scss\style.css">
     <title>Chambres & suites</title>
-    <link rel="stylesheet" href="detailChambre.css">
 </head>
 
 <body>
-    <header>
-        <div>
-            <span>star</span>
-            <span>star</span>
-            <span>star</span>
-            <span>star</span>
-            <span>star</span>
+    <div class="header-Chambre">
+        <div class="Les-5-etoiles">
+            <span class="ti-star"></span>
+            <span class="ti-star"></span>
+            <span class="ti-star"></span>
+            <span class="ti-star"></span>
+            <span class="ti-star"></span>
         </div>
-        <p>Hotêl de luxe à Paris</p>
+        <h4>HOTÊL DE LUXE PARIS</h4>
         <h1>CHAMBRE DE LUXE</h1>
-    </header>
+    </div>
 
     <main>
-        <div>
-            <h4>ducsman</h4>
-            <h2>Chambre deluxe</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa praesentium minus, quae ipsum quibusdam
-                rerum nisi rem amet ullam numquam?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ut optio quaerat vel iure, necessitatibus
-                error odio doloribus porro quam quia inventore consectetur culpa eaque nesciunt repudiandae! Rem
-                laboriosam totam doloribus temporibus rerum voluptates quos eligendi ea eaque nam ducimus natus numquam,
-                atque est? Perspiciatis vero fuga excepturi fugiat sapiente?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quaerat excepturi ratione animi itaque
-                debitis?</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, cupiditate!</p>
-            
-            <div class="check">
-                <h3>Check-in</h3>
-
-                <h3>Check-out</h3>
+        <div class="Chambre-luxe">
+            <div class="Chambre">
+                <h4>DUCSMAN</h4>
+                <h2>Chambre Deluxe</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa praesentium minus, quae ipsum
+                    quibusdam
+                    rerum nisi rem amet ullam numquam?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ut optio quaerat vel iure,
+                    necessitatibus
+                    error odio doloribus porro quam quia inventore consectetur culpa eaque nesciunt repudiandae! Rem
+                    laboriosam totam doloribus temporibus rerum voluptates quos eligendi ea eaque nam ducimus natus
+                    numquam,
+                    atque est? Perspiciatis vero fuga excepturi fugiat sapiente?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, quaerat excepturi ratione animi
+                    itaque
+                    debitis?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, cupiditate!</p>
             </div>
-
-            <div class="listeCheck">
-                <ul>
-                    <li>Check-in à partir de 9h00</li>
-                    <li>Check-in en ligne possible</li>
-                </ul>
-
-                <ul>
-                    <li>Avant 12h00</li>
-                    <li>Check-out Express (supplément)</li>
-                </ul>
+            <div class="Checks">
+                <div class="Check-in">
+                    <h3>Check-in</h3>
+                    <ul>
+                        <li><span class="ti-check"></span>Check-in à partir de 9h00</li>
+                        <li><span class="ti-check"></span>Check-in en ligne possible</li>
+                    </ul>
+                </div>
+                <div class="Check-out">
+                    <h3>Check-out</h3>
+                    <ul>
+                        <li><span class="ti-check"></span>Avant 12h00</li>
+                        <li><span class="ti-check"></span>Check-out Express (supplément)</li>
+                    </ul>
+                </div>
             </div>
+            <div class="Instructions-check-in">
+                <h3>Instruction pour le check-in</h3>
+                <p>Les invités reçoivent un email 5 jours avant l'arrivée prévue avec toutes les informations
+                    nécessaires.
+                    Nos hôtes et hôtesses d'accueil pourront vous donner plus d'informations, n'hésitez pas à les
+                    contacter
+                    avant votre arrivée.</p>
 
-            <h3>Instruction pour les check-in</h3>
-            <p>Les invités reçoivent un email 5 jours avant l'arrivée prévue avec toutes les informations nécessaires.
-                Nos hôtes et hôtesses d'accueil pourront vous donner plus d'informations, n'hésitez pas à les contacter
-                avant votre arrivée.</p>
-
-            <h3>Animaux de compagnie</h3>
-            <p>Pour le confort de tous, ils ne sont pas accéptés au sein de nos chambres.</p>
-
-            <h3>Enfants/bébés et lit supplémentaire</h3>
-            <p>Les enfants sont les bienvenues et les bébés de moins de 2 ans sont accueillis gratuitement. Un lit bébé
-                peut vous être fourni gracieusement sur demande lors de votre réservation</p>
-
-            <button class="bouton">RÉSERVER MAINTENANT</button>
+                <h3>Animaux de compagnie</h3>
+                <p>Pour le confort de tous, ils ne sont pas accéptés au sein de nos chambres.</p>
+                <h3>Enfants/bébés et lit supplémentaire</h3>
+                <p>Les enfants sont les bienvenues et les bébés de moins de 2 ans sont accueillis gratuitement. Un lit
+                    bébé
+                    peut vous être fourni gracieusement sur demande lors de votre réservation</p>
+                <button class="btn-chambre-luxe">RÉSERVER MAINTENANT</button>
+                <form method="get" action="" class="btn-chambre-luxe"><input type="submit" value="RÉSERVER MAINTENANT"></form>
+            </div>
         </div>
-
-        <div class="amenagement">
+        <div class="Amenagements">
             <h3>Aménagement</h3>
             <ul>
-                <li>1-2 personnes</li>
-                <li>Wifi haut-débit gratuit</li>
-                <li>20m²</li>
-                <li>Petit-déjeuner buffet inclus</li>
-                <li>Serviettes fournies</li>
-                <li>Accès à la piscine inclus</li>
+                <li><span class="flaticon-group"></span>1-2 Personnes</li>
+                <li><span class="flaticon-wifi"></span>Wifi haut-débit gratuit</li>
+                <li><span class="flaticon-clock-1"></span>20m²</li>
+                <li><span class="flaticon-breakfast"></span>Petit-déjeuner buffet inclus</li>
+                <li><span class="flaticon-towel"></span>Serviettes fournies</li>
+                <li><span class="flaticon-swimming"></span>>Accès à la piscine inclus</li>
             </ul>
         </div>
     </main>
 </body>
-
-</html>
